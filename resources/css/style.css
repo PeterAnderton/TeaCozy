@@ -10,3 +10,54 @@ html {
 body {
   margin: 0px;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+}
+
+.logo img {
+  margin-left: 10px;
+  height: 50px;
+  width: auto;
+}
+
+#mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#mission-bar {
+  background-color: black;
+  width: 1200px;
+}
+
+#featured {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#featured-content {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.feature-tea img {
+  height: 200px;
+  width: 300px;
+}
